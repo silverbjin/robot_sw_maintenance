@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>maintenance_fortress_demo</name>
+  <version>1.0.0</version>
+  <description>Student lab: ROS 2 Humble + Gazebo Fortress LiDAR bridge maintenance demo.</description>
+  <maintainer email="instructor@example.com">Instructor</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

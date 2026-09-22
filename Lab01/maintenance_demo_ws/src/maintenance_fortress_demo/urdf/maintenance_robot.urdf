@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="maintenance_robot">
+  <link name="base_link">
+    <visual>
+      <geometry><cylinder radius="0.28" length="0.16"/></geometry>
+      <origin xyz="0 0 0.08" rpy="0 0 0"/>
+      <material name="body_blue"><color rgba="0.1 0.35 0.8 1"/></material>
+    </visual>
+  </link>
+  <link name="lidar_link">
+    <visual>
+      <geometry><cylinder radius="0.065" length="0.08"/></geometry>
+      <material name="lidar_dark"><color rgba="0.08 0.08 0.08 1"/></material>
+    </visual>
+  </link>
+  <joint name="base_to_lidar" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.28" rpy="0 0 0"/>
+  </joint>
+</robot>
