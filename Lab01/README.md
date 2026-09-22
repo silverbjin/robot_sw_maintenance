@@ -1,4 +1,4 @@
-# 1회차 실습 — ROS 2 Humble + Gazebo Fortress LiDAR 유지보수
+# 1회차 적용하기 — ROS 2 Humble + Gazebo Fortress LiDAR 유지보수
 
 ## 목표
 Gazebo에서 LiDAR는 정상인데 RViz에 데이터가 보이지 않는 장애를 진단하고, 잘못된 bridge topic을 수정하여 복구한다.
