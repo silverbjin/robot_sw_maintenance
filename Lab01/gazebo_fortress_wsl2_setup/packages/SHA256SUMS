@@ -1,0 +1,3 @@
+# PLACEHOLDER
+# Copy libogrenextmain2.2.5_2.2.5+dfsg3-0ubuntu2_amd64.deb into this directory,
+# then run ../scripts/99_prepare_distribution.sh to replace this file with the real SHA-256 checksum.
