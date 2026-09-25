@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    training_profile: session5_baseline
+    expected_system_state: READY
+    expected_battery_state: "82"
+    expected_network_state: CONNECTED
