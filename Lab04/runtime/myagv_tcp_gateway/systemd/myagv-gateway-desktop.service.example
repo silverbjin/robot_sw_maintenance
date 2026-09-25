@@ -1,0 +1,14 @@
+[Unit]
+Description=myAGV TCP Gateway - Desktop Humble
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/myagv_tcp_gateway
+ExecStart=/bin/bash %h/myagv_tcp_gateway/scripts/start_desktop.sh
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

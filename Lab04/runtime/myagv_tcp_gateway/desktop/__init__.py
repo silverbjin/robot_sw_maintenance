@@ -1,0 +1,1 @@
+"""Desktop-side gateway components."""
