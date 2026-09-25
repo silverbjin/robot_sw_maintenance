@@ -1,6 +1,0 @@
-# 학습용 비교 파일. 실제 실행은 scripts/bridge_wrong.sh 사용.
-ros_topic: /scan
-gazebo_topic: /wrong_lidar_scan
-ros_type: sensor_msgs/msg/LaserScan
-gazebo_type: ignition.msgs.LaserScan
-reason: "Gazebo 실제 토픽 /lidar_scan 과 불일치"
