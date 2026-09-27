@@ -1,0 +1,14 @@
+STUDENT PACKAGE — INCLUDED
+- Student workbook and command reference
+- Upgrade Record template
+- Mock LiDAR ROS 2 demo package
+- Git scenario / reset / fix / rollback scripts
+- Evidence directories
+- Optional real-YDLIDAR add-on
+
+EXCLUDED FROM STUDENT PACKAGE
+- Instructor answer key
+- Instructor operations/troubleshooting guide
+- Internal implementation plan/specification
+- Development tests
+- Validation report

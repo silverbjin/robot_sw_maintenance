@@ -1,0 +1,34 @@
+# LAB-07 optional real-hardware template.
+# INSTRUCTOR_CONFIRM: every device-specific value below must be checked against
+# the exact YDLIDAR model physically mounted on the robot before use.
+ydlidar_ros2_driver_node:
+  ros__parameters:
+    # INSTRUCTOR_CONFIRM: serial alias/device path for the actual unit.
+    port: /dev/ydlidar
+    frame_id: laser_frame
+    ignore_array: ""
+
+    # INSTRUCTOR_CONFIRM: do not assume this baudrate matches every YDLIDAR model.
+    baudrate: 230400
+    lidar_type: 1
+    device_type: 0
+    isSingleChannel: false
+    intensity: false
+    intensity_bit: 0
+
+    # INSTRUCTOR_CONFIRM: sample_rate and scan frequency vary by model/firmware.
+    sample_rate: 9
+    frequency: 10.0
+
+    abnormal_check_count: 4
+    fixed_resolution: true
+    reversion: false
+    inverted: false
+    auto_reconnect: true
+    support_motor_dtr: false
+    angle_max: 180.0
+    angle_min: -180.0
+    range_max: 16.0
+    range_min: 0.12
+    invalid_range_is_inf: false
+    debug: false
