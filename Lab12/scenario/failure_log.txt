@@ -1,0 +1,7 @@
+[CASE LAB12-CASE-01]
+Observed symptom: LiDAR status was not reported as healthy.
+Diagnosed cause: configured lidar_port did not match the known-good port.
+Fault value: /dev/ttyUSB0
+Known-good value: /dev/ttyUSB1
+Action already taken before student exercise: restore known-good lidar_port and restart runtime.
+Student starting point: function recovered, evidence/report not yet completed.

@@ -1,0 +1,11 @@
+lab12_lidar_publisher:
+  ros__parameters:
+    lidar_port: /dev/ttyUSB1
+    expected_lidar_port: /dev/ttyUSB1
+    publish_rate_hz: 10.0
+
+lab12_monitor:
+  ros__parameters:
+    scan_topic: /lidar_scan
+    status_topic: /lab12/function_status
+    scan_timeout_sec: 2.0
