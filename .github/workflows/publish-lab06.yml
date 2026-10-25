@@ -1,0 +1,19 @@
+
+name: Publish Lab06 Source
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create lab06-src branch
+        run: git subtree push --prefix=Lab06/ros2_ws/src origin lab06-src
